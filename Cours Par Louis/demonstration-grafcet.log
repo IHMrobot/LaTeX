@@ -1,0 +1,650 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.6)  6 JUN 2026 16:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./demonstration-grafcet.tex
+(demonstration-grafcet.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-04-28>
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2084.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2086.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2088.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2089.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2090.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2092.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2117.
+\U@D=\dimen151
+\l@unhyphenated=\language79
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4228.
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\bab
+el-french.tex)
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 4356.
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french
+.ldf
+Language: french 2025-08-15 v4.0e French support from the babel system
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french
+3.ldf
+Language: french 2025-08-15 v3.7e French support from the babel system
+\FB@stdchar=\count286
+Package babel Info: Making : an active character on input line 273.
+Package babel Info: Making ; an active character on input line 274.
+Package babel Info: Making ! an active character on input line 275.
+Package babel Info: Making ? an active character on input line 276.
+\FBguill@level=\count287
+\FBold@everypar=\toks17
+\FB@Mht=\dimen152
+\mc@charclass=\count288
+\mc@charfam=\count289
+\mc@charslot=\count290
+\std@mcc=\count291
+\dec@mcc=\count292
+\FB@pardim=\dimen153
+\listindentFB=\dimen154
+\descindentFB=\dimen155
+\labelindentFB=\dimen156
+\labelwidthFB=\dimen157
+\leftmarginFB=\dimen158
+\parindentFFN=\dimen159
+\FBfnindent=\dimen160
+)))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
+) (C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2024/02/08 v1.3d Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (enco
+ding ?) on input line 47.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonehalf (enc
+oding ?) on input line 48.
+LaTeX Encoding Info:    Ignoring declaration for text command \textonequarter (
+encoding ?) on input line 49.
+LaTeX Encoding Info:    Ignoring declaration for text command \textthreequarter
+s (encoding ?) on input line 50.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcent (encodi
+ng ?) on input line 51.
+LaTeX Encoding Info:    Ignoring declaration for text command \textyen (encodin
+g ?) on input line 53.
+LaTeX Encoding Info:    Ignoring declaration for text command \textcurrency (en
+coding ?) on input line 55.
+LaTeX Encoding Info:    Ignoring declaration for text command \textbrokenbar (e
+ncoding ?) on input line 57.
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/grafcet\grafcet.sty
+Package: grafcet 2007/03/05
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tik
+z.sty
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.st
+y
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.
+sty
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-common.tex
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-latex.def
+\pgfutil@abb=\box53
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrc
+s.code.tex
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.te
+x)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcor
+e.sty
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
+ef
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen163
+\Gin@req@width=\dimen164
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsy
+s.sty
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+yslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen165
+\pgf@y=\dimen166
+\pgf@xa=\dimen167
+\pgf@ya=\dimen168
+\pgf@xb=\dimen169
+\pgf@yb=\dimen170
+\pgf@xc=\dimen171
+\pgf@yc=\dimen172
+\pgf@xd=\dimen173
+\pgf@yd=\dimen174
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count293
+\c@pgf@countb=\count294
+\c@pgf@countc=\count295
+\c@pgf@countd=\count296
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count297
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+syssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count298
+\pgfsyssoftpath@bigbuffer@items=\count299
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
+x)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+ore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathuti
+l.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpar
+ser.code.tex
+\pgfmath@dimen=\dimen175
+\pgfmath@count=\count300
+\pgfmath@box=\box54
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.basic.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.trigonometric.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.random.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.comparison.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.base.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.round.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.misc.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.integerarithmetics.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcal
+c.code.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathflo
+at.code.tex
+\c@pgfmathroundto@lastzeros=\count301
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.cod
+e.tex)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen176
+\pgf@picmaxx=\dimen177
+\pgf@picminy=\dimen178
+\pgf@picmaxy=\dimen179
+\pgf@pathminx=\dimen180
+\pgf@pathmaxx=\dimen181
+\pgf@pathminy=\dimen182
+\pgf@pathmaxy=\dimen183
+\pgf@xx=\dimen184
+\pgf@xy=\dimen185
+\pgf@yx=\dimen186
+\pgf@yy=\dimen187
+\pgf@zx=\dimen188
+\pgf@zy=\dimen189
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen190
+\pgf@path@lasty=\dimen191
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen192
+\pgf@shorten@start@additional=\dimen193
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count302
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen194
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen195
+\pgf@pt@y=\dimen196
+\pgf@pt@temp=\dimen197
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen198
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen199
+\pgf@sys@shading@range@num=\count303
+\pgf@shadingcount=\count304
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box58
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box59
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen256
+\pgf@nodesepend=\dimen257
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.
+sty
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys
+.sty
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffo
+r.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen258
+\pgffor@skip=\dimen259
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
+braryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count305
+\pgfplotmarksize=\dimen260
+)
+\tikz@lastx=\dimen261
+\tikz@lasty=\dimen262
+\tikz@lastxsaved=\dimen263
+\tikz@lastysaved=\dimen264
+\tikz@lastmovetox=\dimen265
+\tikz@lastmovetoy=\dimen266
+\tikzleveldistance=\dimen267
+\tikzsiblingdistance=\dimen268
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count306
+\tikznumberofchildren=\count307
+\tikznumberofcurrentchild=\count308
+\tikz@fig@count=\count309
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+lematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count310
+\pgfmatrixcurrentcolumn=\count311
+\pgf@matrix@numberofcolumns=\count312
+)
+\tikz@expandcount=\count313
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.callouts.code.tex))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shape
+s\pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodepartlowerbox=\box64
+\pgfnodeparttwobox=\box65
+\pgfnodepartthreebox=\box66
+\pgfnodepartfourbox=\box67
+\pgfnodeparttwentybox=\box68
+\pgfnodepartnineteenbox=\box69
+\pgfnodeparteighteenbox=\box70
+\pgfnodepartseventeenbox=\box71
+\pgfnodepartsixteenbox=\box72
+\pgfnodepartfifteenbox=\box73
+\pgfnodepartfourteenbox=\box74
+\pgfnodepartthirteenbox=\box75
+\pgfnodeparttwelvebox=\box76
+\pgfnodepartelevenbox=\box77
+\pgfnodeparttenbox=\box78
+\pgfnodepartninebox=\box79
+\pgfnodeparteightbox=\box80
+\pgfnodepartsevenbox=\box81
+\pgfnodepartsixbox=\box82
+\pgfnodepartfivebox=\box83
+)))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
+braryarrows.code.tex
+File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\arrowsize=\dimen269
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/fonts/ifsym\ifsym.sty
+Package: ifsym 2000/04/18 I.Kloeckl
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count314
+\calc@Bcount=\count315
+\calc@Adimen=\dimen270
+\calc@Bdimen=\dimen271
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count316
+\calc@Cskip=\skip53
+)
+\c@ifsymcnt=\count317
+))
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/vmargin\vmargin.sty
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+\PaperWidth=\dimen272
+\PaperHeight=\dimen273
+)
+
+Package french3.ldf Warning: OT1 encoding should not be used for French.
+(french3.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french3.ldf)                of your document; reported on input line 29.
+
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
+dftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count318
+)
+No file demonstration-grafcet.aux.
+\openout1 = `demonstration-grafcet.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported on input line 29.
+LaTeX Info: Redefining \degres on input line 29.
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count319
+\scratchdimen=\dimen274
+\scratchbox=\box84
+\nofMPsegments=\count320
+\nofMParguments=\count321
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count322
+\MPscratchDim=\dimen275
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
+\everyMPtoPDFconversion=\toks34
+)
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Sixtine\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 36.
+
+No file demonstration-grafcet.toc.
+\tf@toc=\write4
+\openout4 = `demonstration-grafcet.toc'.
+
+[1
+
+{C:/Users/Sixtine/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+! Undefined control sequence.
+l.46 \listofgrafcets
+                    
+? 

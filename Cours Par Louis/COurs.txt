@@ -1,0 +1,15 @@
+1 patie forme
+1 partie font
+
+    Partie forme
+
+
+    partie fond
+        text
+
+\commande[Argument optionelle]{argument obligatoire}
+
+les classe : \Documentclass:
+    Article (document cour)
+    reporte (document long)
+    Book, beamer, ...

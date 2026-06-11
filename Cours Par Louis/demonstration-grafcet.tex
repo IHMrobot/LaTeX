@@ -1,0 +1,434 @@
+%%-----------------------------------------------------------------%%
+%%                        GRAFCET 1.0
+%%------------------------------------------------------
+%%
+%% Copyleft Pierre Chatelier
+%%       e-mail: pierre.chatelier@club-internet.fr
+%%   page perso: http://perso.club-internet.fr/ktd
+%%
+%% Demonstration d'utilisation de mon package grafcet 1.0
+%% How to use my grafcet 1.0 package
+%%
+%%------------------------------------------------------
+\documentclass[a4paper]{article}
+\usepackage[french]{babel}      %mode français
+\usepackage[latin1]{inputenc}   %pour pouvoir taper les accents directement dans ce fichier
+\usepackage{grafcet}
+
+\usepackage{vmargin}
+\setmarginsrb{2cm}{2cm}{2cm}{2cm}{2cm}{0cm}{2cm}{0cm}
+%1 est la marge gauche
+%2 est la marge en haut
+%3 est la marge droite
+%4 est la marge en bas
+%5 fixe la hauteur de l'entête
+%6 fixe la distance entre l'entête et le texte
+%7 fixe la hauteur du pied de page
+%8 fixe la distance entre le texte et le pied de page
+
+\begin{document}
+
+\author{Pierre Chatelier\\
+        \emph{e-mail: pierre.chatelier@club-internet.fr}\\
+        \emph{http://perso.club-internet.fr/ktd}\\
+       }
+\title{Démonstration de l'utilisation du package ``grafcet 1.0''}
+\maketitle
+
+\tableofcontents
+\clearpage
+
+%Table des grafcets
+La table des grafcets est insérée ci-dessous par la commande :
+\begin{verbatim}
+\listofgrafcets
+\end{verbatim}
+\listofgrafcets
+\clearpage
+
+% Utilisation de base
+\section{Utilisation de base: $\backslash$Step, $\backslash$Transition, $\backslash$Nop}
+\noindent
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\Step{Voilà une magnifique étape.}
+\Transition{Voilà la transition...}
+\Step{Et l'étape d'après!}
+\Nop
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.45\linewidth}
+\begin{grafcet}
+\Step{Voilà une magnifique \'etape.}
+\Transition{Voilà la transition...}
+\Step{Et l'étape d'après!}
+\Nop
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+%%On peut mettre une légende
+\section{Légende: $\backslash$caption}
+\noindent
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\Step{Voilà une magnifique étape.}
+\Transition{Voilà la transition\ldots}
+\Step{Et l'étape d'après!}
+\Nop
+\caption{On peut mettre une légende}
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.4\linewidth}
+\begin{grafcet}
+\Step{Voilà une magnifique étape.}
+\Transition{Voilà la transition\ldots}
+\Step{Et l'étape d'après!}
+\Nop
+\caption{On peut mettre une légende}
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+%%Multi-ligne / multi-lined
+\section{Lignes multiples}
+\noindent
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\Step{Le texte peut être fait de \\
+       lignes séparables \\\hline
+       comme dans un tableau
+     }
+\Transition{On ne peut pas
+pour les transitions}
+\caption{Texte multi-lignes}
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.4\linewidth}
+\begin{grafcet}
+\Step{Le texte peut être fait de \\
+       lignes séparables \\\hline
+      comme dans un tableau
+     }
+\Transition{On ne peut pas pour les transitions}
+\caption{Texte multi-lignes}
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+%%Étape initiale
+\section{Étape initiale: $\backslash$FirstStep}
+\noindent
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\FirstStep{L'étape initiale a
+    un symbole différent}
+\Transition{condition}
+\Step{\ldots}
+\Nop
+\caption{\'Etape initiale}
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.5\linewidth}
+\begin{grafcet}
+\FirstStep{L'étape initiale a
+    un symbole différent}
+\Transition{condition}
+\Step{\ldots}
+\Nop
+\caption{\'Etape initiale}
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+%%Macro-etape
+\section{Macro-étapes: $\backslash$MacroStep}
+\noindent
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\Step{\ldots}
+\Transition{condition}
+\MacroStep{Il y a aussi le
+    symbole des macros-étapes}
+\Transition{condition}
+\Step{\ldots}
+\caption{Macro-étape}
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.5\linewidth}
+\begin{grafcet}
+\Step{\ldots}
+\Transition{condition}
+\MacroStep{Il y a aussi le
+    symbole des macros-étapes}
+\Transition{condition}
+\Step{\ldots}
+\caption{Macro-étape}
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+%%Numérotation automatique
+\section{Numérotation automatique}
+\noindent
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\Step{Notez que\ldots}
+\Transition{condition}
+\Step{la numérotation\ldots}
+\Transition{condition}
+\Step{est automatique}
+\Nop
+\caption{Numérotation automatique}
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.45\linewidth}
+\begin{grafcet}
+\Step{Notez que\ldots}
+\Transition{condition}
+\Step{la numérotation\ldots}
+\Transition{condition}
+\Step{est automatique}
+\Nop
+\caption{Numérotation automatique}
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+%%Numerotation imposée
+\section{Numérotation imposée}
+\noindent
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\Step{La numérotation est
+    automatique\ldots}
+\Transition{condition}
+\Step{automatique\ldots}
+\Transition{condition}
+\Step[19]{\textbf{ou imposée}}
+\Transition{condition}
+\Step{automatique, reprend à la
+    suite}
+\Nop
+\caption{Numérotation imposée}
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.45\linewidth}
+\begin{grafcet}
+\Step{La numérotation est automatique\ldots}
+\Transition{condition}
+\Step{automatique\ldots}
+\Transition{condition}
+\Step[19]{\textbf{ou imposée}}
+\Transition{condition}
+\Step{automatique, reprend à la suite}
+\Nop
+\caption{Numérotation imposée}
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+%%Divergence
+\section{Divergence: $\backslash$Divergence}
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\Step{On peut diverger\ldots}
+\Divergence
+{
+  \Transition{$a.b$}
+  \Step{\ldots}
+  \Transition{condition}
+  \Step{\ldots}
+  \Transition{condition}
+}
+{
+  \Transition{$a.\bar{b}$}
+  \Step{\ldots}
+  \Transition{condition}
+}
+\Step{\ldots et reconverger}
+\Transition{\ldots}
+\caption{Divergence}
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.45\linewidth}
+\begin{grafcet}
+\Step{On peut diverger\ldots}
+\Divergence
+{
+  \Transition{$a.b$}
+  \Step{\ldots}
+  \Transition{condition}
+  \Step{\ldots}
+  \Transition{condition}
+}
+{
+  \Transition{$a.\bar{b}$}
+  \Step{\ldots}
+  \Transition{condition}
+}
+\Step{\ldots et reconverger}
+\Transition{\ldots}
+\caption{Divergence}
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+%%Dédoublement
+\section{Dédoublement: $\backslash$Fork}
+\noindent
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\Step{Pour une même condition, \\
+    on peut dédoubler\ldots}
+\Transition{$a.b$}
+\Fork
+{
+  \Step{\ldots}
+  \Transition{condition}
+}
+{
+  \Step{\ldots}
+  \Transition{condition}
+  \Step{\ldots}
+  \Transition{condition}
+}
+\Step{\ldots et reconverger}
+\Transition{\ldots}
+\caption{Dédoublement / Fork}
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.45\linewidth}
+\begin{grafcet}
+\Step{Pour une même condition,\\ on peut dédoubler\ldots}
+\Transition{$a.b$}
+\Fork
+{
+  \Step{\ldots}
+  \Transition{condition}
+}
+{
+  \Step{\ldots}
+  \Transition{condition}
+  \Step{\ldots}
+  \Transition{condition}
+}
+\Step{\ldots et reconverger}
+\Transition{\ldots}
+\caption{Dédoublement / Fork}
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+%%Boucle
+\section{Boucle: $\backslash$Loop}
+\noindent
+\begin{tabular}{ll}
+\begin{minipage}{.4\linewidth}
+\begin{verbatim}
+
+\begin{grafcet}
+\Loop{
+    \FirstStep{On peut boucler}
+    \Transition{start}
+    \Fork
+    {
+      \Step[2]{M1}
+      \Transition{end1}
+      \Step{\ldots}
+      \Nop
+    }
+    {
+      \Step{M2}
+      \Transition{end2}
+      \Step{\ldots}
+      \Nop
+    }
+    \Transition{=1}
+}
+\caption{Boucle}
+\end{grafcet}
+
+\end{verbatim}
+\end{minipage}
+&
+\begin{minipage}{.45\linewidth}
+\begin{grafcet}
+\Loop{
+	\FirstStep{On peut boucler}
+	\Transition{start}
+	\Fork
+	{
+	  \Step[2]{M1}
+	  \Transition{end1}
+	  \Step{\ldots}
+	  \Nop
+	}
+	{
+	  \Step{M2}
+	  \Transition{end2}
+	  \Step{\ldots}
+	  \Nop
+	}
+	\Transition{=1}
+}
+\caption{Boucle}
+\end{grafcet}
+\end{minipage}
+\end{tabular}
+
+\end{document}
